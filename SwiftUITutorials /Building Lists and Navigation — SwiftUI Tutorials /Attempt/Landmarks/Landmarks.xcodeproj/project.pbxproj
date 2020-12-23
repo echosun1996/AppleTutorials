@@ -14,6 +14,10 @@
 		1502201D258CB9290037B2D3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502201C258CB9290037B2D3 /* CircleImage.swift */; };
 		15022020258CCD6F0037B2D3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502201F258CCD6F0037B2D3 /* MapView.swift */; };
 		15F9A033259040B3005F940A /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 15F9A032259040B3005F940A /* landmarkData.json */; };
+		15F9A03725921E29005F940A /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9A03625921E29005F940A /* Landmark.swift */; };
+		15F9A03D25921F9C005F940A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9A03C25921F9C005F940A /* LandmarkRow.swift */; };
+		15F9A04825922712005F940A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9A04725922712005F940A /* ModelData.swift */; };
+		15F9A04D25922A38005F940A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9A04C25922A38005F940A /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		1502201C258CB9290037B2D3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1502201F258CCD6F0037B2D3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		15F9A032259040B3005F940A /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		15F9A03625921E29005F940A /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		15F9A03C25921F9C005F940A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		15F9A04725922712005F940A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		15F9A04C25922A38005F940A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +69,15 @@
 				15F9A03125904059005F940A /* Resources */,
 				1502200C258C544A0037B2D3 /* LandmarksApp.swift */,
 				1502200E258C544A0037B2D3 /* LandmarkDetail.swift */,
+				15F9A03C25921F9C005F940A /* LandmarkRow.swift */,
+				15F9A04C25922A38005F940A /* LandmarkList.swift */,
 				15022010258C544D0037B2D3 /* Assets.xcassets */,
 				1502201C258CB9290037B2D3 /* CircleImage.swift */,
 				1502201F258CCD6F0037B2D3 /* MapView.swift */,
 				15022015258C544D0037B2D3 /* Info.plist */,
 				15022012258C544D0037B2D3 /* Preview Content */,
+				15F9A03625921E29005F940A /* Landmark.swift */,
+				15F9A04725922712005F940A /* ModelData.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -102,6 +114,8 @@
 			dependencies = (
 			);
 			name = Landmarks;
+			packageProductDependencies = (
+			);
 			productName = Landmarks;
 			productReference = 15022009258C544A0037B2D3 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +143,8 @@
 				Base,
 			);
 			mainGroup = 15022000258C544A0037B2D3;
+			packageReferences = (
+			);
 			productRefGroup = 1502200A258C544A0037B2D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,7 +175,11 @@
 				1502201D258CB9290037B2D3 /* CircleImage.swift in Sources */,
 				15022020258CCD6F0037B2D3 /* MapView.swift in Sources */,
 				1502200F258C544A0037B2D3 /* LandmarkDetail.swift in Sources */,
+				15F9A04D25922A38005F940A /* LandmarkList.swift in Sources */,
 				1502200D258C544A0037B2D3 /* LandmarksApp.swift in Sources */,
+				15F9A03725921E29005F940A /* Landmark.swift in Sources */,
+				15F9A03D25921F9C005F940A /* LandmarkRow.swift in Sources */,
+				15F9A04825922712005F940A /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
